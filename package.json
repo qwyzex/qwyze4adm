@@ -1,29 +1,29 @@
 {
-  "name": "qx4",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "firebase": "^10.9.0",
-    "firerr": "^0.2.0",
-    "next": "14.1.4",
-    "nodemailer": "^6.9.13",
-    "react": "^18",
-    "react-dom": "^18",
-    "react-firebase-hooks": "^5.1.1"
-  },
-  "devDependencies": {
-    "@types/node": "^20",
-    "@types/nodemailer": "^6.4.14",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "eslint": "^8",
-    "eslint-config-next": "14.1.4",
-    "typescript": "^5"
-  }
+    "name": "qxadmin",
+    "version": "4.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "firebase": "^10.9.0",
+        "firerr": "^0.2.0",
+        "next": "14.1.4",
+        "nodemailer": "^6.9.13",
+        "react": "^18",
+        "react-dom": "^18",
+        "react-firebase-hooks": "^5.1.1"
+    },
+    "devDependencies": {
+        "@types/node": "^20",
+        "@types/nodemailer": "^6.4.14",
+        "@types/react": "^18",
+        "@types/react-dom": "^18",
+        "eslint": "^8",
+        "eslint-config-next": "14.1.4",
+        "typescript": "^5"
+    }
 }

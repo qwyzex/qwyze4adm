@@ -88,20 +88,20 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <main className={`${styles.main} ${inter.className}`}>
-                <div>{JSON.stringify(publicData.date)}</div>
-                <div>{JSON.stringify(publicData.key)}</div>
-                <div>{JSON.stringify(publicData.emailSent)}</div>
-                <div>{JSON.stringify(publicData.timeSentLOC)}</div>
-                <div>{JSON.stringify(publicData.timeSentUTC)}</div>
-                <div>{JSON.stringify(publicData.timeUsedLOC)}</div>
-                <div>{JSON.stringify(publicData.timeUsedUTC)}</div>
-                <div>{JSON.stringify(publicData.localKey)}</div>
+                <div>{JSON.stringify(publicData?.date)}</div>
+                <div>{JSON.stringify(publicData?.key)}</div>
+                <div>{JSON.stringify(publicData?.emailSent)}</div>
+                <div>{JSON.stringify(publicData?.timeSentLOC)}</div>
+                <div>{JSON.stringify(publicData?.timeSentUTC)}</div>
+                <div>{JSON.stringify(publicData?.timeUsedLOC)}</div>
+                <div>{JSON.stringify(publicData?.timeUsedUTC)}</div>
+                <div>{JSON.stringify(publicData?.localKey)}</div>
                 <div>
                     {!loading && authorized === "unauthorized" ? (
                         <KeyPrompt
                             setLoading={setLoading}
                             setAuthorized={setAuthorized}
-                            keyString={publicData.key}
+                            keyString={publicData?.key}
                         ></KeyPrompt>
                     ) : !loading && authorized === "blocked" ? (
                         <Blocked></Blocked>
